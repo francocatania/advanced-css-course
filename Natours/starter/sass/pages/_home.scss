@@ -47,6 +47,9 @@
 .section-stories {
   padding: 10rem;
   position: relative;
+  @include respond(tab-port) {
+    padding: 5rem;
+  }
 }
 
 .section-booking {
