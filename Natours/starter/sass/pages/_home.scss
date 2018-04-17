@@ -18,7 +18,8 @@
   ), 
     url(../img/nat-4.jpg);
   background-size: cover;
-  transform: skewY(-13deg);
+  // transform: skewY(-13deg);
+  transform: skewY(-4deg);
   margin-top: -5.5rem;
 
   @include respond(tab-port) {
@@ -28,7 +29,8 @@
   }
 
   & > * {
-    transform: skewY(13deg);
+    // transform: skewY(13deg);
+    transform: skewY(4deg);
 
     @include respond(tab-port) {
       transform: skewY(0);
